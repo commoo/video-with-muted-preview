@@ -20,7 +20,7 @@ middleman build
 ```
 
 ## Preview in browser
-https://melanieseltzer.github.io/video-with-muted-preview/build/index.html
+https://melanieseltzer.github.io/video-with-muted-preview/build/
 
 ## Built With
 * [Middleman](https://middlemanapp.com/) - The build tool
