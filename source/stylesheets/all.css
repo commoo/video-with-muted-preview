@@ -1,0 +1,98 @@
+.video-outer-container {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.video-inner-container {
+  display: inline-block;
+  position: relative;
+}
+.video-overlay {
+  position: absolute;
+  z-index: 10000;
+  background: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+}
+.playBtn {
+  background: none !important;
+  color: #b98d2f;
+  border: none;
+  padding: 0 !important;
+  margin: 0 !important;
+  font: inherit;
+  cursor: pointer;
+  z-index: 1000;
+  position: absolute;
+  top: 40%;
+  left: 45%;
+  font-size: 12em !important;
+}
+video {
+  width: 100%;
+  height: 100%;
+}
+#vid-full
+/*.static-image-mobile */{
+  display: none;
+}
+/* hide ios video play button */
+*::-webkit-media-controls-start-playback-button {
+display: none !important;
+-webkit-appearance: none;
+}
+
+  /* RESPONSIVE VIDEO STYLES */
+  @media only screen and (min-width: 1024px) and (max-width: 1500px) {
+    .playBtn {
+      top: 30%;
+      left: 42%;
+      font-size: 10em !important;
+    }
+  }
+  @media only screen and (max-width: 1023px) {
+    .playBtn {
+      top: 25%;
+      left: 42%;
+      font-size: 10em !important;
+    }
+  }
+  @media only screen and (min-width: 601px) and (max-width: 768px) {
+    .playBtn {
+      top: 25%;
+      left: 42%;
+      font-size: 7em !important;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .playBtn {
+      top: 15%;
+      left: 38%;
+      font-size: 7em !important;
+    }
+  }
+  @media only screen and (max-width: 400px) {
+    .playBtn {
+      top: 5%;
+      left: 38%;
+      font-size: 7em !important;
+    }
+  }
+
+/* temp remove for now - swap to static image on tablet/mobile
+@media only screen and (max-width: 767px) {
+  .video-outer-container {
+    display: none;
+  }
+  .static-image-mobile {
+    display: block;
+  }
+}
+.static-image-mobile {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}*/

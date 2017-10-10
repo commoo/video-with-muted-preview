@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Video with looping muted preview</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="stylesheets/all.css">
+</head>
+<body>
+  <div class="video-outer-container">
+    <div class="video-inner-container">
+      <div class="video-overlay"><div class="playBtn"><i class="fa fa-play-circle fa-5" aria-hidden="true"></i></div></div>
+
+      <video id="vid-preview" width="100%" height="100%" autoplay loop muted playsinline>
+          <source src="/videos/10-sec-compressed.mp4" type="video/mp4">
+          <source src="/videos/10-sec-compressed.webm" type="video/webm">
+          <source src="/videos/10-sec-compressed.ogv" type="video/ogg">
+          Your browser does not support the video tag.
+      </video>
+
+      <video id="vid-full" width="100%" height="100%" controls playsinline>
+          <source src="/videos/video-final-updated-compressed.mp4" type="video/mp4">
+          <source src="/videos/video-final-updated-compressed.webm" type="video/webm">
+          <source src="/videos/video-final-updated-compressed.ogv" type="video/ogg">
+          Your browser does not support the video tag.
+      </video>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="javascripts/all.js"></script>
+</body>
+</html>
