@@ -1,5 +1,5 @@
 # Video with looping muted preview
-100% width HTML5 video with a preview loop that's muted. Upon clicking play, the full video with sound will play.
+100% width HTML5 video with a preview loop that's muted. Upon clicking play, the full video with sound will play. There's play/pause functionality by clicking the video itself.
 
 ## Getting Started
 Uses Middleman for local development. Open terminal in folder and run using:
