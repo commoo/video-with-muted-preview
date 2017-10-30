@@ -1,0 +1,5 @@
+# Ignore Middleman Vendor files for repo language
+$ cat .gitattributes
+*.rb linguist-vendored
+Gemfile linguist-vendored
+Gemfile.lock linguist-vendored
